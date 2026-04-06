@@ -1,5 +1,5 @@
 ---
-- hosts: linux-servers
+- hosts: all
   tasks:
     - name: Update repositories cache and install "foo" package
       apt:
